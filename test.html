@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdownify MCP Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        blockquote {
+            border-left: 4px solid #ccc;
+            padding-left: 15px;
+            color: #555;
+            margin-left: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Markdownify MCP Test</h1>
+    
+    <p>This is a test HTML file to demonstrate the capabilities of the Markdownify MCP server. This server can convert various file types to Markdown format.</p>
+    
+    <h2>Features</h2>
+    
+    <p>The Markdownify MCP server can convert the following file types to Markdown:</p>
+    
+    <ul>
+        <li>PDF files</li>
+        <li>Images (with metadata and description)</li>
+        <li>Audio files (with transcription)</li>
+        <li>DOCX files</li>
+        <li>XLSX files</li>
+        <li>PPTX files</li>
+        <li>YouTube videos (with transcript)</li>
+        <li>Bing search results</li>
+        <li>Web pages (like this one)</li>
+    </ul>
+    
+    <h2>Code Example</h2>
+    
+    <p>Here's an example of how to use the Markdownify MCP server in JavaScript:</p>
+    
+    <pre><code>// Example code to use the Markdownify MCP server
+const markdownify = require('markdownify-mcp');
+
+async function convertToMarkdown(url) {
+    try {
+        const result = await markdownify.webpageToMarkdown(url);
+        console.log(result);
+    } catch (error) {
+        console.error('Error converting webpage to Markdown:', error);
+    }
+}
+
+convertToMarkdown('https://example.com');</code></pre>
+    
+    <h2>Blockquote Example</h2>
+    
+    <blockquote>
+        <p>Markdownify MCP is a powerful tool for converting various file types to Markdown format. It's perfect for content creators, researchers, and developers who need to work with different file formats in a consistent way.</p>
+    </blockquote>
+    
+    <h2>Table Example</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Tool Name</th>
+                <th>Description</th>
+                <th>Input Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pdf-to-markdown</td>
+                <td>Convert PDF files to Markdown</td>
+                <td>File path</td>
+            </tr>
+            <tr>
+                <td>webpage-to-markdown</td>
+                <td>Convert web pages to Markdown</td>
+                <td>URL</td>
+            </tr>
+            <tr>
+                <td>youtube-to-markdown</td>
+                <td>Convert YouTube videos to Markdown</td>
+                <td>URL</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Conclusion</h2>
+    
+    <p>The Markdownify MCP server is a versatile tool that can help you convert various file types to Markdown format. It's easy to use and can be integrated into your workflow to streamline your content creation process.</p>
+</body>
+</html>
