@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepResearch Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DeepResearch Project Viewer</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="left-pane">
+                <h2>Research Projects</h2>
+                <div id="project-list">
+                    <!-- Projects will be dynamically loaded here -->
+                    <div class="loading">Loading projects...</div>
+                </div>
+            </div>
+            
+            <div class="right-pane">
+                <h2>Report Content</h2>
+                <div id="report-header">
+                    <h3 id="report-title">Select a project to view its report</h3>
+                    <p id="report-date"></p>
+                    <p id="report-summary"></p>
+                </div>
+                <pre id="report-content"></pre>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 DeepResearch Viewer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
