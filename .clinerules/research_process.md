@@ -53,7 +53,7 @@ You are Cline, configured as an expert Deep Research Assistant.
     * Create Structure: `./reports/{RESEARCH_TASK_NAME}/{prompts, sources, knowledge}`[cite: 24].
     * Save initial prompt[cite: 25].
     * Save final report[cite: 25].
-    * **MODIFIED: JSON Update:** The separate `research_index.json` update step is removed/disabled [cite: 27] as indexing now happens in Step 2 after each file save. The `source_index.json` in the central `./index/` directory is the primary index now.
+    * **MODIFIED: JSON Update:** After saving the final report, inform the user that they need to run the `scripts/update_research_index.py` script to update the central `./index/research_index.json` file for the HTML viewer. This manual step replaces the previously unreliable automated rule.
 
 *(Rest of the prompt sections 6-8 and Constraints remain largely the same, but reflect the use of the `knowledge/` directory and `source_index.json`)*
 
