@@ -283,7 +283,7 @@
     "timestamp": "2025-04-21T00:03:23Z"
   },
   {
-    "source_id": "historylink_washington_2025-04-21T00:07:59Z",
+    "source_id": "historylink_washington_20250421T000759Z",
     "original_url": "https://www.historylink.org/File/21288",
     "local_path": "reports/Best_Apple_Growing_Regions/knowledge/apple_casestudy_us_washington_historylink.md",
     "title": "Apple Farming in Washington - HistoryLink.org",
@@ -302,7 +302,7 @@
     "timestamp": "2025-04-21T00:07:59Z"
   },
   {
-    "source_id": "wsu_climaterisks_2025-04-21T00:08:58Z",
+    "source_id": "wsu_climaterisks_20250421T000858Z",
     "original_url": "https://news.wsu.edu/press-release/2025/01/06/prime-apple-growing-areas-in-us-face-increasing-climate-risks/",
     "local_path": "reports/Best_Apple_Growing_Regions/knowledge/apple_casestudy_us_washington_wsu_climaterisks.md",
     "title": "Prime apple-growing areas in US face increasing climate risks | WSU Insider | Washington State University",
@@ -323,7 +323,7 @@
     "timestamp": "2025-04-21T00:08:58Z"
   },
   {
-    "source_id": "farmonaut_washington_2025-04-21T00:10:16Z",
+    "source_id": "farmonaut_washington_20250421T001016Z",
     "original_url": "https://farmonaut.com/usa/washingtons-apple-industry-navigating-water-management-and-economic-challenges-in-the-yakima-basin/",
     "local_path": "reports/Best_Apple_Growing_Regions/knowledge/apple_casestudy_us_washington_farmonaut_water_economic.md",
     "title": "Washington's Apple Industry: Navigating Water Management and Economic Challenges in the Yakima Basin -",
@@ -344,7 +344,7 @@
     "timestamp": "2025-04-21T00:10:16Z"
   },
   {
-    "source_id": "waapple_regions_2025-04-21T00:12:26Z",
+    "source_id": "waapple_regions_20250421T001226Z",
     "original_url": "https://waapple.org/regions/",
     "local_path": "reports/Best_Apple_Growing_Regions/knowledge/apple_casestudy_us_washington_waapple_regions.md",
     "title": "Our Orchards & Apple Growers - Washington Apples",
@@ -365,7 +365,7 @@
     "timestamp": "2025-04-21T00:12:26Z"
   },
   {
-    "source_id": "producebusiness_washington_2025-04-21T00:13:25Z",
+    "source_id": "producebusiness_washington_20250421T001325Z",
     "original_url": "https://www.producebusiness.com/expect-strong-washington-apple-crop/",
     "local_path": "reports/Best_Apple_Growing_Regions/knowledge/apple_casestudy_us_washington_producebusiness_crop.md",
     "title": "Expect Strong Washington Apple Crop - Produce Business",
@@ -385,5 +385,67 @@
     ],
     "abstract": "Produce Business article on the Washington apple crop forecast, highlighting production increase, popular varieties like Cosmic Crisp and SweeTango, organic sales growth, and challenges including rising labor costs and retail strategies.",
     "timestamp": "2025-04-21T00:13:25Z"
+  },
+  {
+    "source_id": "wikipedia_star_trek_overview_20250506",
+    "original_url": "https://en.wikipedia.org/wiki/Star_Trek",
+    "local_path": "reports/Star_Trek_Production_History/knowledge/star_trek_wikipedia_overview.md",
+    "title": "Star Trek - Wikipedia Overview",
+    "tags": [
+      "Star Trek",
+      "production history",
+      "television",
+      "movies",
+      "films",
+      "Wikipedia",
+      "franchise",
+      "Gene Roddenberry",
+      "Paramount",
+      "CBS"
+    ],
+    "abstract": "Overview of the Star Trek media franchise, covering its creation by Gene Roddenberry, expansion into various television series and films, cultural impact, and corporate ownership history, with a focus on production milestones.",
+    "timestamp": "2025-05-06T02:11:37Z"
+  },
+  {
+    "source_id": "wikipedia_tos_20250506",
+    "original_url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series",
+    "local_path": "reports/Star_Trek_Production_History/knowledge/star_trek_tos_wikipedia.md",
+    "title": "Star Trek: The Original Series - Wikipedia",
+    "tags": [
+      "Star Trek",
+      "TOS",
+      "Original Series",
+      "production history",
+      "television",
+      "Wikipedia",
+      "Gene Roddenberry",
+      "Desilu",
+      "NBC",
+      "syndication",
+      "production"
+    ],
+    "abstract": "Detailed history of the production of Star Trek: The Original Series, including its creation, development, production across three seasons, syndication success, and key production staff.",
+    "timestamp": "2025-05-06T02:13:08Z"
+  },
+  {
+    "source_id": "wikipedia_films_list_20250506",
+    "original_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_films",
+    "local_path": "reports/Star_Trek_Production_History/knowledge/star_trek_films_list_wikipedia.md",
+    "title": "List of Star Trek films - Wikipedia",
+    "tags": [
+      "Star Trek",
+      "films",
+      "movies",
+      "production history",
+      "Wikipedia",
+      "Original Series films",
+      "Next Generation films",
+      "Kelvin Timeline films",
+      "television films",
+      "box office",
+      "critical response"
+    ],
+    "abstract": "A comprehensive list of Star Trek films, detailing production information, release dates, box office performance, and critical reception for films based on The Original Series, The Next Generation, the Kelvin Timeline, and television films.",
+    "timestamp": "2025-05-06T02:19:24Z"
   }
 ]
